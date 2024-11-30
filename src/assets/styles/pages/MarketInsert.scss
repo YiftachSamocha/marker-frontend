@@ -1,0 +1,35 @@
+.market-insert {
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+
+    h4 {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #ff385c;
+        margin-top: 1.5em;
+        transition: color 0.3s ease;
+    }
+
+    h4.success {
+        color: #4caf50;
+    }
+
+    h4.error {
+        color: #f44336;
+    }
+
+    // Add some responsive adjustments
+    @media (max-width: 768px) {
+        padding: 1.5em;
+
+        h4 {
+            font-size: 1em;
+        }
+    }
+}
